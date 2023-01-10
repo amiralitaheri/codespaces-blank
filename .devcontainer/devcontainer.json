@@ -1,11 +1,16 @@
 {
-    "customizations": {
-      "codespaces": {
-        "repositories": {
-          "amiralitaheri/kibana": {
-            "permissions": "write-all"
-          }
-        }
+   "hostRequirements":{
+      "cpus":8,
+      "memory":"8gb",
+      "storage":"32gb"
+   },
+   "customizations":{
+      "codespaces":{
+         "repositories":{
+            "amiralitaheri/kibana":{
+               "permissions":"write-all"
+            }
+         }
       }
-    }
-  }
+   }
+}
